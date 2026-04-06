@@ -319,3 +319,21 @@ Authorization: Bearer <token>
 GET /api/dashboard/summary
 Authorization: Bearer <token>
 ```
+---
+
+## Links
+
+- **GitHub Repository:** [https://github.com/gunwant29/finance-backend](https://github.com/gunwant29/finance-backend)
+- **Live API (Render):** [https://finance-backend-mspv.onrender.com](https://finance-backend-mspv.onrender.com)
+
+### Live API Endpoints to Try
+
+| Description | URL |
+|---|---|
+| Health Check | https://finance-backend-mspv.onrender.com/api/health |
+| Register | https://finance-backend-mspv.onrender.com/api/auth/register |
+| Login | https://finance-backend-mspv.onrender.com/api/auth/login |
+| Records | https://finance-backend-mspv.onrender.com/api/records |
+| Dashboard Summary | https://finance-backend-mspv.onrender.com/api/dashboard/summary |
+
+> **Note:** The API is hosted on Render's free tier. If it hasn't received traffic recently, the first request may take ~30 seconds to wake up. Subsequent requests will be fast.
